@@ -58,6 +58,7 @@ angular.module('wearscriptPlaygroundApp')
         Math.floor(Math.random() * 100000),
         onopen
       );
+      $log.info(service.ws);
     }
 
     return service;
